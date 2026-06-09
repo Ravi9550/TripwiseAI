@@ -81,32 +81,4 @@ pip install -r requirements.txt
 streamlit run frontend.py
 ```
 
-## Project Structure
 
-```text
-TripWiseAi/
-  auth.py
-  db_utils.py
-  frontend.py
-  main.py
-  requirements.txt
-  tools/
-    flight_tool.py
-    tavily_tool.py
-    recommendations.py
-```
-
-## Deployment Entry Point
-
-Use this as the app entry file:
-
-```text
-frontend.py
-```
-
-## Notes
-
-- Do not commit `.env`.
-- Do not commit `venv/`.
-- Do not commit local `.db` files.
-- Make sure your deployed PostgreSQL database allows external connections from your hosting provider.
